@@ -9,11 +9,13 @@ using namespace std;;
 class Person {
 
     private:
-        string name;
-        int age;
-        Vehicle* vehicle;
+        
+        string m_name;
+        int m_age;
+        Vehicle* m_vehicle;
 
     public:
+
         Person(string name, int age, Vehicle* vehicle);
 
         string get_name();

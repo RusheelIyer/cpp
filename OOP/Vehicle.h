@@ -16,8 +16,8 @@ class Vehicle
         int get_wheels();
         void set_wheels(int val);
     private:
-        string name;
-        int wheels;
+        string m_name;
+        int m_wheels;
 };
 
 #endif // VEHICLE_H

@@ -4,22 +4,22 @@
 using namespace std;
 
 Vehicle::Vehicle(string name, int wheels) {
-    name = name;
-    wheels = wheels;
+    m_name = name;
+    m_wheels = wheels;
 }
 
 string Vehicle::get_name() {
-    return this->name;
+    return m_name;
 }
 
 void Vehicle::set_name(string name) {
-    name = name;
+    m_name = name;
 }
 
 int Vehicle::get_wheels() {
-    return wheels;
+    return m_wheels;
 }
 
 void Vehicle::set_wheels(int val) {
-    wheels = val;
+    m_wheels = val;
 }
