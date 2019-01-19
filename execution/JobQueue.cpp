@@ -2,6 +2,8 @@
 #include "JobQueue.h"
 #include "Job.h"
 
+template<class Job>
+
 // Constructors implementation
 JobQueue::JobQueue(std::deque<std::unique_ptr<Job>> jobs) {
     this->jobs = jobs;

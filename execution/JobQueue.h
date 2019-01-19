@@ -4,6 +4,8 @@
 #ifndef JOBQUEUE_H
 #define JOBQUEUE_H
 
+template<class Job>
+
 class JobQueue {
 
     private:
