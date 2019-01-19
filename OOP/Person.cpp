@@ -5,13 +5,13 @@
 using namespace std;
 
 Person::Person(string name, int age, Vehicle* vehicle) {
-    m_name = name;
+    this->name = name;
     m_age = age;
     m_vehicle = vehicle;
 }
 
 string Person::get_name() {
-    return m_name;
+    return this->name;
 }
 
 int Person::get_age() {

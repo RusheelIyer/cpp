@@ -10,7 +10,7 @@ class Person {
 
     private:
         
-        string m_name;
+        string name;
         int m_age;
         Vehicle* m_vehicle;
 
