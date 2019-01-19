@@ -1,4 +1,5 @@
 #include <deque>
+#include <memory>
 #include "JobQueue.h"
 #include "Job.h"
 

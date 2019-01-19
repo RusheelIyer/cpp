@@ -1,4 +1,5 @@
 #include "Job.h"
+#include <memory>
 
 template<typename T, class ClassificationResult>
 

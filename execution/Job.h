@@ -1,3 +1,4 @@
+#include <memory>
 
 template<typename T, class ClassificationResult>
 
